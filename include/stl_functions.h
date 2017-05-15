@@ -2,7 +2,14 @@
 // Hints:  Only function signatures in here.
 // Hints:  Don't change ANY of the function signatures.
 // Hints:  Don't forget to include the needed headers.
+#ifndef _H_FUNCTIONS_STL
+#define _H_FUNCTIONS_STL
+//thanks for the help here!
+#include <vector>
+#include <string>
+#include <algorithm>
 
+#endif
 
 /**
  * copyVec
@@ -41,3 +48,6 @@ bool containsItem(std::vector<std::string> & ourVector, std::string item);
  */
 
 std::vector<int> inBoth(std::vector<int> a, std::vector<int> b);
+
+void doubleHelp(int &x);
+//

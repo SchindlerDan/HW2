@@ -1,0 +1,34 @@
+#include "stl_functions.h"
+
+std::vector<int> copyVec(const std::vector<int> & oldVector){
+    vec std::copy oldVector;
+    return vec;
+
+
+
+}
+
+
+void sortVec(std::vector<int> & oldVector){
+    std::sort(oldVector);
+
+
+}
+
+
+void doubleVec(std::vector<int> & oldVector){
+    std::for_each(oldVector.begin(), oldVector.end(), doubleHelp);
+
+
+}
+
+int doubleHelp(int *x){
+    *x = *x * 2;
+
+}
+
+
+
+
+
+
